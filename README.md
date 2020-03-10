@@ -1,5 +1,5 @@
 
-# 1st Project by Team Tarzan
+# 1st Project By Team Tarzan
 - [x] Part 1: Figuring Out The Purpose
 
 The purpose of this website was to display the capabilities of this team, designing, building, the speed and efficiency of a team that works together in synchronization.
