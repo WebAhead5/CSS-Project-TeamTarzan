@@ -1,6 +1,7 @@
 .container {
     background: #f6f6f6;
-    padding: 2em 0 2em;
+    padding: 2em 0 2em 0;
+    overflow-y: auto;
 }
 
 .container ul {
@@ -15,33 +16,35 @@
 }
 
 @media screen and (min-width: 650px) {
-    .container {
-        margin: 0;
-    }
+    
     .container img {
-        width: 150px;
-        height: 150px;
+        width: 250px;
+        height: 250px;
     }
     
     .container ul {
         display: flex;
         align-items: center;
         margin-left: -4.5em;
+        flex-wrap: wrap;
     }
     
-    body .container {
+    body .container {   
         width: 100%;
-        overflow-y: scroll;
+    }
+    .contaier ul li {
+        font-size: 20%;
     }
 }
 
-@media screen and (min-width: 1024px) {
+@media screen and (min-width: 980px) {
     .container {
-        margin: 0;
+        max-width: 100%;
     }
+
     .container img {
-        width: 150px;
-        height: 150px;
+        width: 300px;
+        height: 300px;
     }
     
     .container ul {
@@ -50,8 +53,4 @@
         margin-left: -4.5em;
     }
     
-    body .container {
-        width: 100%;
-        overflow-y: scroll;
-    }
 }
