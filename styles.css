@@ -1,3 +1,14 @@
+#aboutustext {
+    text-align: left;
+    margin: 0 auto;
+    font-size: 100%;
+    width: 90%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    background-color: #F6f6f6;
+    padding: 20px 20px 20px 20px;
+}
+
 #LayOutTable{
     width: 80%;
     height: 100%;
@@ -48,6 +59,17 @@ a{
 }
 
 @media screen and (min-width: 650px) {
+    #aboutustext {
+    text-align: left;
+    margin: 0 auto;
+    font-size: 125%;
+    width: 800px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    background-color: #F6f6f6;
+    padding: 20px 20px 20px 20px;
+    }
+    
     .container {
         margin: 0;
     }
