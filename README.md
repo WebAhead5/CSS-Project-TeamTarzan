@@ -16,7 +16,7 @@ The essential part of designing and building this website were planning it befor
 
 We haven't gotten to this part yet but when we do, you will be reading this and you will notice that this was written so we can show what an empty checkbox looks like.
 
-The essential parts for working on the website were
+The essential parts for working on the website were -
    - Teamwork
    - Planning
    - Efficiency
