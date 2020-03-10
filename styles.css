@@ -1,6 +1,95 @@
+#LayOutTable{
+    width: 80%;
+    height: 100%;
+    border: 2px transparent;
+    align-content: center;
+    margin: auto;
+}
 
+#Header{
+    font-size: 20px;
+    color: white;
+    font-family: fantasy;
+    text-shadow: 4px 4px blueviolet;
+}
+
+#AboutUs{
+    text-align: left;
+    margin: 2px;
+}
+
+a:link{
+    color: black;
+}
+a:hover{
+    color:yellow
+}
+a:visited{
+    color: black;
+}
+a{
+    text-decoration: none;
+}
+.container {
+    background: #f6f6f6;
+    padding: 2em 0 2em;
+    width: 100%;
+}
+
+.container ul {
+    list-style-type: none;
+  }
+
+.rounded {
+    border-radius: 50%;
+    border-style: solid;
+    border-width: 2px;
+    border-color: rgb(20, 90, 120)
+}
+
+@media screen and (min-width: 650px) {
+    .container {
+        margin: 0;
+    }
+    .container img {
+        width: 150px;
+        height: 150px;
+    }
+    
+    .container ul {
+        display: flex;
+        align-items: center;
+        margin-left: -4.5em;
+    }
+    
+    body .container {
+        width: 100%;
+        overflow-y: scroll;
+    }
+}
+
+@media screen and (min-width: 1024px) {
+    .container {
+        margin: 0;
+    }
+    .container img {
+        width: 150px;
+        height: 150px;
+    }
+    
+    .container ul {
+        display: flex;
+        align-items: center;
+        margin-left: -4.5em;
+    }
+    
+    body .container {
+        width: 100%;
+        overflow-y: scroll;
+    }
+}
  /* Style submit */
-  input[type=submit] {
+ input[type=submit] {
     background-color: #45a049;
     color: white;
     padding: 12px 20px;
@@ -22,23 +111,13 @@
   }
   
 
-  .White {
-    background-color:white;
-    width: 250px;
-    text-align: left;
-    border-radius: 5px;
-    box-shadow: 5px 5px #88888860;
-    padding: 50px;
-    margin: auto;
-}
-  
 
+  
   .white-container {
     border-radius: 5px;
     background-color: white;
     padding: 10px;
+    width: 50%;
   }
 
 
-
-  
