@@ -2,7 +2,7 @@
 # 1st Project By Team Tarzan
 - [x] Part 1: Figuring Out The Purpose
 
-The purpose of this website was to display the capabilities of this team, designing, building, the speed and efficiency of a team that works together in synchronization.
+The purpose of this website was to display the capabilities of this team, designing, building, the speed and efficiency of a team that works together in sync.
 
 - [x] Part 2: Planning Everything
 
@@ -10,7 +10,7 @@ Planning the website and its contents, the main page that contains the idea and 
 
 - [x] Part 3: Designing And Building The Website
 
-The essential part of designing and building this website were planning it beforehand and splitting the work for each team member so that everything can be done and built within speed and efficiency.
+The essential part of designing and building this website was planning it beforehand and splitting the work for each team member so that everything can be done and built with speed and efficiency.
 
 - [ ] Part 4: Presenting it to the class
 
@@ -21,4 +21,4 @@ The essential parts for working on the website were -
    - Planning
    - Efficiency
    
-to help write this README I used information from the following link : [CLICK HERE](https://help.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax)
+To help write this readme we used information from the following link : [CLICK HERE](https://help.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax)
