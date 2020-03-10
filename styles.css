@@ -1,3 +1,52 @@
+#aboutustext {
+    text-align: left;
+    margin: auto;
+    font-size: 20px;
+    width: 100%;
+    background-color: #F6f6f6;
+    padding: 2px;
+}
+
+#LayOutTable{
+    border-radius: 10px;
+    width: 80%;
+    height: 100%;
+    border: 5px white;
+    align-content: center;
+    margin: auto;
+}
+
+#Header{
+    font-size: 45px;
+    color: white;
+    font-family: 'Bellota', cursive;
+    text-shadow: 4px 4px rgb(21, 8, 34);
+}
+
+#AboutUs{
+    text-align: left;
+    margin: 2px;
+}
+
+a:link{
+    color: black;
+}
+
+.hover-color {
+    border-radius: 5%;
+}
+
+.hover-color:hover {
+    background-color: rgba(102, 102, 102, 0.801);
+}
+
+a:visited{
+    color: black;
+}
+a{
+    text-decoration: none;
+}
+
 .container {
     background: #f6f6f6;
     padding: 2em 0 2em 0;
@@ -15,42 +64,80 @@
     border-color: rgb(20, 90, 120)
 }
 
-@media screen and (min-width: 650px) {
+    @media screen and (min-width: 650px) {
+        #aboutustext {
+            text-align: left;
+            margin: 0 auto;
+            padding: 2px;
+            }
     
-    .container img {
-        width: 250px;
-        height: 250px;
+        .container img {
+            width: 250px;
+            height: 250px;
+        }
+        
+        .container ul {
+            display: flex;
+            align-items: center;
+            margin-left: -4.5em;
+            flex-wrap: wrap;
+        }
+        
+        body .container {   
+            width: 100%;
+        }
+        .contaier ul li {
+            font-size: 20%;
+        }
     }
     
-    .container ul {
-        display: flex;
-        align-items: center;
-        margin-left: -4.5em;
-        flex-wrap: wrap;
-    }
+    @media screen and (min-width: 980px) {
+        .container {
+            max-width: 100%;
+        }
     
-    body .container {   
-        width: 100%;
-    }
-    .contaier ul li {
-        font-size: 20%;
-    }
-}
+        .container img {
+            width: 25%vw;
+            height: 25%vw;
+        }
+        
+        .container ul {
+            display: flex;
+            align-items: center;
+            margin-left: -4.5em;
+        }
 
-@media screen and (min-width: 980px) {
-    .container {
-        max-width: 100%;
     }
+ /* Style submit */
+ input[type=submit] {
+    background-color: #45a049;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 4px;
+ 
+  }
 
-    .container img {
-        width: 300px;
-        height: 300px;
-    }
+  input[type=text], select, textarea {
+    width: 100%; 
+    padding: 10px;  
+    border: 1px solid #ccc; 
+    border-radius: 4px; /* Rounded borders */
+    border-color : black;
+    box-sizing: border-box; /* Make sure that padding and width stays in place */
+    margin-top: 6px; /* Add a top margin */
+    margin-bottom: 16px; /* Bottom margin */
+    resize: vertical /* Allow the user to vertically resize the textarea (not horizontally) */
     
-    .container ul {
-        display: flex;
-        align-items: center;
-        margin-left: -4.5em;
-    }
-    
-}
+  }
+  
+
+
+  
+  .white-container {
+    border-radius: 5px;
+    background-color: #F6f6f6;
+    padding: 10px;
+    width: 50%;
+  }
+
+
