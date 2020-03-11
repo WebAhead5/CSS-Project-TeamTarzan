@@ -230,3 +230,12 @@ form {
     border-style: double;
     box-sizing: border-box; 
   }
+
+.hover-color {
+    height: 50px;
+    text-align: center;
+    color: white;
+    background-color: rgba(80, 144, 163, 0.836);
+    position: sticky;
+    top: 0;
+}
