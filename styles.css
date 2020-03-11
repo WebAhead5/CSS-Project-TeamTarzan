@@ -1,3 +1,6 @@
+/* HARD WORK HAS BEEN PUT TO THIS PAGE SO PLEASE EDIT CAREFULLY  */
+
+/* Simple and straight its a styling for About us tab */
 #aboutustext {
     text-align: left;
     margin: auto;
@@ -5,8 +8,9 @@
     width: 100%;
     background-color: #F6f6f6;
     padding: 2px;
+    font-family: 'Bellota', cursive;
 }
-
+/* styling for the table, header and about us */
 #LayOutTable{
     border-radius: 10px;
     width: 100%;
@@ -34,6 +38,7 @@ a:link{
 
 .hover-color {
     border-radius: 5%;
+    font-family: 'Bellota', cursive;
 }
 
 .hover-color:hover {
@@ -51,6 +56,7 @@ a{
     text-decoration: none;
 }
 
+/* styling for the figures and names */
 .container {
     background: #f6f6f6;
     overflow-y: auto;
@@ -68,6 +74,7 @@ figcaption {
     list-style-type: none;
   }
 
+  /* rounded photo corners */
 .rounded {
     border-radius: 50%;
     border-style: solid;
@@ -75,6 +82,7 @@ figcaption {
     border-color: rgb(20, 90, 120)
 }
 
+/* drop down menu when hovering over the names */
 .dropdown-content {
     display: none;
     position: absolute;
@@ -95,7 +103,7 @@ figcaption {
   .dropdown:hover .dropdown-content {display: block;}
   .dropdown:hover figure {background-color: #3e8e41;}
 
-
+/* how elements should look from 650px to 1024px devices */
     @media screen and (min-width: 650px) {
 
         #LayOutTable{
@@ -144,6 +152,7 @@ figcaption {
 
     }
     
+    /* how elements should look above 1024px devices */
     @media screen and (min-width: 1024px) {
         
         #LayOutTable{
@@ -182,6 +191,7 @@ figcaption {
 
     }
 
+/* Sticky men bar code */
     .hover-color {
         height: 50px;
         text-align: center;
@@ -190,7 +200,7 @@ figcaption {
         position: sticky;
         top: 0;
     }
-
+/* styles for our contact us */
     input[type=submit] {
         background-color: #45a049;
         color: white;
@@ -218,6 +228,7 @@ figcaption {
         width: 50%;
       }
 
+      /* code for tarzan animation over the header */
       .tarzan {
           position: absolute;
           left: -20%;
