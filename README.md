@@ -21,4 +21,5 @@ The essential parts for working on the website were -
    - Planning
    - Efficiency
 To access the website directly, please click the following link : [CLICKHERE](https://webahead5.github.io/CSS-Project-TeamTarzan/)
+
 To help write this readme we used information from the following link : [CLICK HERE](https://help.github.com/en/github/writing-on-github/basic-writing-and-formatting-syntax)
