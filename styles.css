@@ -1,16 +1,26 @@
+#aboutustext {
+    text-align: left;
+    margin: auto;
+    font-size: 20px;
+    width: 100%;
+    background-color: #F6f6f6;
+    padding: 2px;
+}
+
 #LayOutTable{
+    border-radius: 10px;
     width: 80%;
     height: 100%;
-    border: 2px transparent;
+    border: 5px white;
     align-content: center;
     margin: auto;
 }
 
 #Header{
-    font-size: 20px;
+    font-size: 45px;
     color: white;
-    font-family: fantasy;
-    text-shadow: 4px 4px blueviolet;
+    font-family: 'Bellota', cursive;
+    text-shadow: 4px 4px rgb(21, 8, 34);
 }
 
 #AboutUs{
@@ -21,19 +31,30 @@
 a:link{
     color: black;
 }
-a:hover{
-    color:yellow
+
+.hover-color {
+    border-radius: 5%;
 }
+
+.hover-color:hover {
+    background-color: rgba(102, 102, 102, 0.801);
+}
+
+.info-hover:hover{
+    color: rgba(9, 94, 221, 0.801);
+}
+
 a:visited{
     color: black;
 }
 a{
     text-decoration: none;
 }
+
 .container {
     background: #f6f6f6;
-    padding: 2em 0 2em;
-    width: 100%;
+    padding: 2em 0 2em 0;
+    overflow-y: auto;
 }
 
 .container ul {
@@ -47,47 +68,50 @@ a{
     border-color: rgb(20, 90, 120)
 }
 
-@media screen and (min-width: 650px) {
-    .container {
-        margin: 0;
-    }
-    .container img {
-        width: 150px;
-        height: 150px;
+    @media screen and (min-width: 650px) {
+        #aboutustext {
+            text-align: left;
+            margin: 0 auto;
+            padding: 2px;
+            }
+    
+        .container img {
+            width: 250px;
+            height: 250px;
+        }
+        
+        .container ul {
+            display: flex;
+            align-items: center;
+            margin-left: -4.5em;
+            flex-wrap: wrap;
+        }
+        
+        body .container {   
+            width: 100%;
+        }
+        .contaier ul li {
+            font-size: 20%;
+        }
     }
     
-    .container ul {
-        display: flex;
-        align-items: center;
-        margin-left: -4.5em;
-    }
+    @media screen and (min-width: 980px) {
+        .container {
+            max-width: 100%;
+        }
     
-    body .container {
-        width: 100%;
-        overflow-y: scroll;
-    }
-}
+        .container img {
+            width: 25%vw;
+            height: 25%vw;
+        }
+        
+        .container ul {
+            display: flex;
+            align-items: center;
+            margin-left: -4.5em;
+        }
 
-@media screen and (min-width: 1024px) {
-    .container {
-        margin: 0;
     }
-    .container img {
-        width: 150px;
-        height: 150px;
-    }
-    
-    .container ul {
-        display: flex;
-        align-items: center;
-        margin-left: -4.5em;
-    }
-    
-    body .container {
-        width: 100%;
-        overflow-y: scroll;
-    }
-}
  /* Style submit */
  input[type=submit] {
     background-color: #45a049;
@@ -115,7 +139,7 @@ a{
   
   .white-container {
     border-radius: 5px;
-    background-color: white;
+    background-color: #F6f6f6;
     padding: 10px;
     width: 50%;
   }

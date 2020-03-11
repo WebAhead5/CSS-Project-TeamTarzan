@@ -5,12 +5,13 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css?family=Bellota&display=swap" rel="stylesheet">
 </head>
 <body>
    
  <table id="LayOutTable" border="0">
-     <tr style="height: 150px">
-         <th colspan="3" style="background-image:url('t.jpg'); background-size: cover; opacity: 0.7;">
+     <tr style="height: 20vw">
+         <th colspan="3" style="background-image:url('images/header.jpg'); background-size: cover; opacity: 0.7;">
             <div id="Header">
                 <b>Team Tarazan</b><br>
                 You Have Always Been One Of Us
@@ -18,15 +19,33 @@
          </th>
      </tr>
 
-     <tr style="height: 50px;text-align: center; color: white; background-color: green;">
-        <td><a href="#about">About us</a></td>
-        <td><a href="#team">Team Members</a></td>
-        <td><a href="#contact">Contact us</a></td>
+
+     <tr style="height: 50px;text-align: center; color: white; background-color: rgba(80, 144, 163, 0.836);">
+        <td class="hover-color"><a href="#aboutustext">About us</a></td>
+        <td class="hover-color"><a href="#team">Team Members</a></td>
+        <td class="hover-color"><a href="#Contact">Contact us</a></td>
      </tr>
 
      <tr >
-        <td colspan="3" style="height: 600px; padding: 2px;vertical-align: top;">
+        <td colspan="3" style="height: 400px; padding: 2px;vertical-align: top;background-color: #F6f6f6; padding: 2em;">
             
+            <div id="aboutustext">
+                <h3>Business Info</h3><img src="./images/infomark.png" alt="info mark" height="16" width="16">  
+                Info<br><p>Founded in 2020, Tarzan Team has come a long way from its beginnings in a Bootcamp. When we 
+                first started out, our passion for coding drove us to build ths website, and gave us the impetus to turn 
+                hard work and inspiration into to a beautifully designed website. We now build websites for customers all 
+                over the world, and are a famous website building company.<br><br>
+                We hope that you enjoy our websites as much as we enjoy offering them to you. If you have any questions or 
+                comments, please don't hesitate to contact us.<br><br>
+                <h3>Other Info</h3>
+                <img src="./images/flagmark.png" alt="flag mark" height="16" width="16"> Location<br><p>We are   currently located in Haifa, Israel.</p>
+                <img src="./images/missionmark.png" alt="mission mark" height="16" width="16"> Our Goal<br><p>Our goal is to provide the best website designs possible.</p>
+            </p>
+            </div>
+        </td>
+        </tr>
+        <tr >
+            <td colspan="3" style="height: 600px; padding: 2px;vertical-align: top;background-color: #F6f6f6; padding: 2em;">            
             <div id="team" class="container">
                 <ul>
                     <li class="photo">
@@ -34,67 +53,71 @@
                             <img class="rounded" src="images/marwan.jpg" alt="Marwan Image" width="100px" height="100px">
                             <figcaption><strong><i> Marwan Rizik</i></strong></figcaption>
                             <li>Career: Atomic Scientest</li>
-                            <li>Contact: <a href="Marwan_Rizik@TT.com">Marwan_Rizik@TT.com</a></li>
-                            <li><a href="https://github.com/Marwanrizik91">Github</a> </li>
+                            <li>Contact: <a href="Marwan_Rizik@TT.com" class="info-hover">Marwan_Rizik@TT.com</a></li>
+                            <li><a href="https://github.com/Marwanrizik91" class="info-hover">Github</a> </li>
                         </figure>
                     </li>
                     <li class="photo">
                         <figure>
-                            <img class="rounded" src="images/majd.jpg" alt="Marwan Image" width="100px" height="100px">
+                            <img class="rounded" src="images/majd.jpg" alt="Majd Image" width="100px" height="100px">
                             <figcaption><strong><i>Majd Khoury</i></strong></figcaption>
                             <li>Career: Harvard Proffessor</li>
-                            <li>Contact: <a href="Majd_Khoury@TT.com">Majd_Khoury@TT.com</a></li>
-                            <li> <a href="https://github.com/majdk143">Github</a></li>
+                            <li>Contact: <a href="Majd_Khoury@TT.com" class="info-hover">Majd_Khoury@TT.com</a></li>
+                            <li> <a href="https://github.com/majdk143" class="info-hover">Github</a></li>
                         </figure>
                     </li>
                     <li class="photo">
                         <figure>
-                            <img class="rounded" src="images/hashem.jpg" alt="Marwan Image" width="100px" height="100px">
+                            <img class="rounded" src="images/hashem.jpg" alt="Hashem Image" width="100px" height="100px">
                             <figcaption><strong><i>Hashem Abed Al Jawad</i></strong></figcaption>
                             <li>Career: Astronaut at NASA</li>
-                            <li>Contact: <a href="Hashem_Jawad@TT.com">Hashem_Jawad@TT.com</a></li>
-                            <li><a href="https://github.com/hashem96">Github</a></li>
+                            <li>Contact: <a href="Hashem_Jawad@TT.com" class="info-hover">Hashem_Jawad@TT.com</a></li>
+                            <li><a href="https://github.com/hashem96" class="info-hover">Github</a></li>
                         </figure>
                     </li>
                     <li class="photo">
                         <figure>
-                            <img class="rounded" src="images/khaled.jpg" alt="Marwan Image" width="100px" height="100px">
+                            <img class="rounded" src="images/khaled.jpg" alt="Khaled Image" width="100px" height="100px">
                             <figcaption><i><strong>Khaled Eghbareye</i></strong></figcaption>
                             <li>Career: Senior Software Developer</li>
-                            <li>Contact: <a href="Khaled_Eghbareye@TT.com">Khaled_Eghbareye@TT.com</a> </li>
-                            <li><a href="https://github.com/VoJunSoft">Github</a></li>
+                            <li>Contact: <a href="Khaled_Eghbareye@TT.com" class="info-hover">Khaled_Eghbareye@TT.com</a> </li>
+                            <li><a href="https://github.com/VoJunSoft" class="info-hover">Github</a></li>
                         </figure>
                     </li>
                 </ul>
             </div>
-
+            </td>
+        </tr>
+        <tr >
+            <td colspan="3" style="height: 600px; padding: 2px;vertical-align: top;background-color: #F6f6f6; padding: 2em;">
+                
                 <div id ="Contact" class="white-container">
                 <label for="fname">First Name :</label>
                 <br>
-                <input type="text" id="fname" name="firstname" placeholder="Your name.." style="width:50%">
+                    <input type="text" id="fname" name="firstname" placeholder="Your name.." style="width:50%">
             
                 <br>
                 <br>
             
                 <label for="lname">Last Name :</label>
                 <br>
-                <input type="text" id="lname" name="lastname" placeholder="Your last name.."style="width:50%">
+                    <input type="text" id="lname" name="lastname" placeholder="Your last name.."style="width:50%">
             
                 <br>
                 <br>
             
                 <label for="Email">Email :</label>
                 <br>
-                <input type="text" id="Email" name="Email" placeholder="Your Email ..">
+                    <input type="text" id="Email" name="Email" placeholder="Your Email ..">
             
                 <br>
                 <br>
             
-                <label for="subject">Subject :</label>
+                    <label for="subject">Subject :</label>
             
                 <br>
                 <br>
-                <textarea id="subject" name="subject" placeholder="Write something.." rows="10" cols="50"></textarea>
+                    <textarea id="subject" name="subject" placeholder="Write something.." rows="10" cols="50"></textarea>
             
                 <br>
                 <br>
