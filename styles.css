@@ -141,7 +141,7 @@ figcaption {
         .photo-text {
             text-align: center;
         }
-        
+
     }
     
     @media screen and (min-width: 1024px) {
@@ -217,7 +217,6 @@ figcaption {
         padding: 10px;
         width: 50%;
       }
-<<<<<<< HEAD
 
       .tarzan {
           position: absolute;
@@ -239,7 +238,4 @@ figcaption {
               left: 100%;
           }
       }
-
-      
-=======
->>>>>>> dd072e87e504f006c534ce6ace33b20a28cd5f7b
+  
