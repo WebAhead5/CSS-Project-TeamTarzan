@@ -124,6 +124,10 @@ figcaption {
             font-size: 20%;
         }
 
+        figure {
+            margin-left: 2.5em;
+        }
+
         figcaption {
             text-align: center;
             padding-top: 1em;
@@ -151,6 +155,11 @@ figcaption {
             align-items: center;
             margin-left: -4.5em;
         }
+        
+        figure {
+            margin-left: 2.5em;
+        }
+
 
         figcaption {
             text-align: center;
