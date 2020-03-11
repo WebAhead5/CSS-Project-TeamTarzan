@@ -141,6 +141,7 @@ figcaption {
         .photo-text {
             text-align: center;
         }
+        
     }
     
     @media screen and (min-width: 1024px) {
@@ -215,6 +216,27 @@ figcaption {
         background-color: #F6f6f6;
         padding: 10px;
         width: 50%;
+      }
+
+      .tarzan {
+          position: absolute;
+          left: -20%;
+          top: 0;
+          height: 160px;
+          width: 200px;
+          animation-duration: 7s;
+          animation-name: animateTarzan;
+          z-index: 1;
+          animation-delay: 1s;
+      }
+
+      @keyframes animateTarzan {
+          from {
+              left: -10%;
+          }
+          to {
+              left: 100%;
+          }
       }
 
       
