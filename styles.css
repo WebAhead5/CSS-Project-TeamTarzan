@@ -69,6 +69,7 @@ figure {
 figcaption {
     padding-top: 0.5em;
     margin-left: 3.5em;
+    cursor: pointer;
 }
 
 .name3 {
@@ -83,7 +84,8 @@ figcaption {
     border-radius: 50%;
     border-style: solid;
     border-width: 2px;
-    border-color: rgb(20, 90, 120)
+    border-color: rgb(20, 90, 120);
+    cursor: pointer;
 }
 
 /* drop down menu when hovering over the names */
@@ -103,9 +105,12 @@ figcaption {
     display: block;
   }
 
-  .dropdown-content li:hover {background-color: #ddd;}
-  .dropdown:hover .dropdown-content {display: block;}
-  .dropdown:hover figure {background-color: #3e8e41;}
+  .dropdown-content li:hover {
+      background-color: #ddd;
+    }
+  .photo:hover .dropdown-content {
+      display: block;
+    }
 
 /* how elements should look from 650px to 1024px devices */
     @media screen and (min-width: 650px) {
