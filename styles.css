@@ -212,6 +212,7 @@ figcaption {
         color: white;
         background-color: rgba(80, 144, 163, 0.836);
         position: sticky;
+        top: 0;
         font-size: 150%;
         font-weight: bold;
     }
