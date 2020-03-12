@@ -36,17 +36,13 @@ a:link{
     color: black;
 }
 
-.hover-color {
-    border-radius: 5%;
-    font-family: 'Bellota', cursive;
-}
 
 .hover-color:hover {
-    background-color: rgba(102, 102, 102, 0.801);
+    background-color: rgb(102, 102, 102);
 }
 
 .info-hover:hover{
-    color: rgba(9, 94, 221, 0.801);
+    color: rgb(9, 94, 221);
 }
 
 a:visited{
@@ -210,19 +206,21 @@ figcaption {
         height: 50px;
         text-align: center;
         color: white;
-        background-color: rgba(80, 144, 163, 0.836);
+        background-color: rgb(80, 144, 163);
         position: sticky;
         top: 0;
         font-size: 150%;
         font-weight: bold;
+        border-radius: 5%;
+        font-family: 'Bellota', cursive;
     }
 
 
-    input[type=submit] {
-        background-color: #45a049;
-        color: white;
-        padding: 12px 20px;
-        border-radius: 4px;
+input[type=submit] {
+    background-color: #45a049;
+    color: white;
+    padding: 12px 20px;
+    border-radius: 4px;
         
     
 }
