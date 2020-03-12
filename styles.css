@@ -214,33 +214,37 @@ figcaption {
         position: sticky;
         top: 0;
     }
-/* styles for our contact us */
+
+
     input[type=submit] {
         background-color: #45a049;
         color: white;
         padding: 12px 20px;
         border-radius: 4px;
+        
     
-      }
+}
     
-      input[type=text],textarea {
-        width: 100%; 
-        padding: 10px;  
-        border: 1px solid #ccc; 
-        border-radius: 4px; 
-        border-color :rgba(80, 144, 163, 0.836);
-        box-sizing: border-box; 
-        margin-top: 6px; 
-        margin-bottom: 16px; 
-      }
-    
-      
-      .white-container {
-        border-radius: 5px;
-        background-color: #F6f6f6;
-        padding: 10px;
-        width: 50%;
-      }
+input[type=text],textarea{
+    width: 100%; 
+    padding: 10px;  
+    border: 1px solid #ccc; 
+    border-radius: 4px;  
+    border-color :rgba(80, 144, 163, 0.836);
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px; 
+ 
+}
+.white-container {
+    border-radius: 5px;
+    background-color: #F6f6f6;
+    padding: 10px;
+    width: 50%;
+    }
+    #submit {
+        cursor: pointer;
+    }
 
       /* code for tarzan animation over the header */
       .tarzan {
@@ -255,6 +259,19 @@ figcaption {
           animation-delay: 1s;
       }
 
+
+      /* code for tarzan animation over the header */
+      .tarzan {
+          position: absolute;
+          left: -20%;
+          top: 0;
+          height: 160px;
+          width: 200px;
+          animation-duration: 7s;
+          animation-name: animateTarzan;
+          z-index: 1;
+          animation-delay: 1s;
+      }
       @keyframes animateTarzan {
           from {
               left: -10%;
@@ -262,5 +279,3 @@ figcaption {
           to {
               left: 100%;
           }
-      }
-
