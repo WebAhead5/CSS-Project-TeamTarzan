@@ -1,6 +1,8 @@
 
 # 1st Project By Team Tarzan
 
+###### PROJECT GUIDE
+
 * Part 1: The Project's Purpose
 
 The purpose of this website was to display the capabilities of this team, designing, building, the speed and efficiency of a team that works together in sync.
@@ -13,7 +15,7 @@ Planning the website and its contents, the main page that contains the idea and 
 
 The essential part of designing and building this website was planning it beforehand and splitting the work for each team member so that everything can be done and built with speed and efficiency.
 
-<!-- PROJECT LINKS -->
+###### PROJECT LINKS
    
 To access the website directly, please click the following link : [CLICK HERE](https://webahead5.github.io/CSS-Project-TeamTarzan/)
 
