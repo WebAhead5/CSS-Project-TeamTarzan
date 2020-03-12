@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Project TeamTarzan</title>
     <link rel="stylesheet" href="styles.css">
     <link href="https://fonts.googleapis.com/css?family=Bellota&display=swap" rel="stylesheet">
 </head>
@@ -24,14 +24,14 @@
      </tr>
      <tr>
         <td class="hover-color"><a href="#aboutustext">About us</a></td>
-        <td class="hover-color"><a href="#team">Team Members</a></td>
-        <td class="hover-color"><a href="#Contact">Contact us</a></td>
+        <td class="hover-color"><a href="#scrollToTeam">Team Members</a></td>
+        <td class="hover-color"><a href="#scrollToContact">Contact us</a></td>
      </tr>
 
-     <tr >
-        <td colspan="3" style="height: 400px; padding: 2px;vertical-align: top;background-color: #F6f6f6; padding: 2em;">
+     <tr id="aboutustext">
+        <td colspan="3" style="height: 400px;vertical-align: top;background-color: #F6f6f6; padding: 2em;">
             
-            <div id="aboutustext">
+            <div>
                 <h3>Business Info</h3><img src="./images/infomark.png" alt="info mark" height="16" width="16">  
                 Info<br><p style="info">Founded in 2020, Tarzan Team has come a long way from its beginnings in a Bootcamp. When we 
                 first started out, our passion for coding drove us to build this website, and gave us the impetus to turn 
@@ -46,9 +46,9 @@
             </div>
         </td>
         </tr>
-        <tr>
-            <td colspan="3" style="height: 600px; padding: 2px;vertical-align: top;background-color: #F6f6f6; padding: 2em;">            
-            <div id="team" class="container">
+        <tr id="scrollToTeam">
+            <td colspan="3" style="vertical-align: top;background-color: #F6f6f6; padding: 4em 2em 2em 2em;">            
+            <div class="container">
                 <ul>
                     <li class="photo">
                         <figure>
@@ -106,9 +106,8 @@
             </div>
             </td>
         </tr>
-        <tr >
-            <td colspan="3" style="height: 600px; padding: 2px;vertical-align: top;background-color: #F6f6f6; padding: 2em;">
-                
+        <tr id ="scrollToContact">
+            <td colspan="3" style="height: 500px; padding: 2px;vertical-align: top;background-color: #F6f6f6; padding: 4em 2em 2em 2em;">
                 <div id ="Contact" class="white-container">
                     <label for="fname">First Name :</label>
                     <br>
