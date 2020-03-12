@@ -1,25 +1,25 @@
 
 # 1st Project By Team Tarzan
-- [x] Part 1: Figuring Out The Purpose
+
+* [Part 1: Figuring Out The Purpose]
 
 The purpose of this website was to display the capabilities of this team, designing, building, the speed and efficiency of a team that works together in sync.
 
-- [x] Part 2: Planning Everything
+* [Part 2: Planning Everything]
 
 Planning the website and its contents, the main page that contains the idea and an overview of the team, the team page which shows the members and their backgrounds, the about page which explains more about the team and how it was built, the contact us for anyone who wishes to contact the team.
 
-- [x] Part 3: Designing And Building The Website
+* [Part 3: Designing And Building The Website]
 
 The essential part of designing and building this website was planning it beforehand and splitting the work for each team member so that everything can be done and built with speed and efficiency.
 
-- [ ] Part 4: Presenting it to the class
+* [Part 4: Ideas]
 
-We haven't gotten to this part yet but when we do, you will be reading this and you will notice that this was written so we can show what an empty checkbox looks like.
-
-The essential parts for working on the website were -
    - Teamwork
    - Planning
    - Efficiency
+
+<!-- PROJECT LINKS -->
    
 To access the website directly, please click the following link : [CLICK HERE](https://webahead5.github.io/CSS-Project-TeamTarzan/)
 
